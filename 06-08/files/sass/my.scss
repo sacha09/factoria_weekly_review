@@ -1,7 +1,9 @@
+// hace invisible las imagenes
 .invisible {
   opacity: 0;
 }
 
+// genera el fondo grisaceo de forma trapezoidal a la izquierda.
 .izq {
   position: absolute;
   background-color: lightgrey;
@@ -9,6 +11,7 @@
   height: 800px;
 }
 
+// genera el fondo degradado de forma trapezoidal a la derecha.
 .der {
   position: absolute;
   background: linear-gradient(to top, yellow, red);
@@ -16,6 +19,7 @@
   height: 800px;
 }
 
+// Añade margenes para ajustar los elementos.
 .mr{
   margin-right: 15px;
 }
@@ -23,6 +27,7 @@
   margin-left: 15px;
 }
 
+// ajusta el tamaño del texto plano.
 p {
   width: 35%;
 }
