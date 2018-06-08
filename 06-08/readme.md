@@ -1,7 +1,7 @@
 ## Revisión semanal
 ### Semana del 4 al 8 de junio de 2018
 
-Esta semana estamos haciendo un proyecto que incluya el compendio de conocimientos adquiridos a lo larfo de la semana.
+Proyecto que incluye el compendio de conocimientos adquiridos a lo largo de la semana.
 
 Para iniciar este proyecto he:
 

@@ -5,14 +5,16 @@
 
 /* line 5, ../sass/my.scss */
 .left {
+  background-size: cover;
   background-color: grey;
-  -webkit-clip-path: polygon(0 0, 65% 0, 29% 100%, 0% 100%);
-  clip-path: polygon(0 0, 65% 0, 29% 100%, 0% 100%);
 }
 
-/* line 11, ../sass/my.scss */
+/* line 12, ../sass/my.scss */
 .right {
   background: linear-gradient(to right, yellow, red);
-  -webkit-clip-path: polygon(70% 0, 100% 0, 100% 100%, 34% 100%);
-  clip-path: polygon(70% 0, 100% 0, 100% 100%, 34% 100%);
+}
+
+/* line 18, ../sass/my.scss */
+p {
+  width: 90%;
 }
