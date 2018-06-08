@@ -6,9 +6,13 @@
 /* line 5, ../sass/my.scss */
 .left {
   background-color: grey;
+  -webkit-clip-path: polygon(0 0, 65% 0, 29% 100%, 0% 100%);
+  clip-path: polygon(0 0, 65% 0, 29% 100%, 0% 100%);
 }
 
-/* line 9, ../sass/my.scss */
+/* line 11, ../sass/my.scss */
 .right {
   background: linear-gradient(to right, yellow, red);
+  -webkit-clip-path: polygon(70% 0, 100% 0, 100% 100%, 34% 100%);
+  clip-path: polygon(70% 0, 100% 0, 100% 100%, 34% 100%);
 }

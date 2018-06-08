@@ -9,7 +9,7 @@ Para iniciar este proyecto he:
 2. Git init en github con clone en carpeta local.
 3. Ir a la carpeta local en Terminal.
 4. mkdir 08/06 && cd 08/06
-5. npm init.
+5. npm init
 6. npm install express --save
 7. npm install express-handlebars --save
 8. touch app.js
