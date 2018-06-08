@@ -13,19 +13,27 @@
   height: 800px;
 }
 
+/* line 15, ../sass/my.scss */
+.mr {
+  margin-right: 15px;
+}
+
 /* line 18, ../sass/my.scss */
+.ml {
+  margin-left: 15px;
+}
+
+/* line 22, ../sass/my.scss */
 .der {
   z-index: 100;
   float: right;
   position: absolute;
   background: linear-gradient(to top, yellow, red);
   clip-path: polygon(66% 0, 100% 0, 100% 100%, 31% 100%);
-  background-size: cover;
-  display: inline-flex;
   height: 800px;
 }
 
-/* line 29, ../sass/my.scss */
+/* line 33, ../sass/my.scss */
 p {
   width: 35%;
 }
