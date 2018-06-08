@@ -1,0 +1,14 @@
+/* line 1, ../sass/my.scss */
+.invisible {
+  opacity: 0;
+}
+
+/* line 5, ../sass/my.scss */
+.left {
+  background-color: grey;
+}
+
+/* line 9, ../sass/my.scss */
+.right {
+  background: linear-gradient(to right, yellow, red);
+}

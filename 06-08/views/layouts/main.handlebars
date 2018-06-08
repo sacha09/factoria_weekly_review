@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- el titulo lo carga desde un partial -->
+  <title>{{>title}}</title>
+  <!-- carga la hoja de estilos propia que compila compass -->
+  <link rel="stylesheet" href="/stylesheets/my.css">
+</head>
+
+<body>
+  <!-- carga la cabecera -->
+  {{>header}}
+
+  <!-- carga el contenido de la página -->
+  {{{body}}}
+
+  <!-- carga el pie de página -->
+  {{>footer}}
+
+  <!-- Carga Jquery via cdn -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <!-- Carga la función personal -->
+  <script src="/js/click.js"></script>
+</body>
+
+</html>
