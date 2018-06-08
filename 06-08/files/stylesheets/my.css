@@ -3,18 +3,29 @@
   opacity: 0;
 }
 
-/* line 5, ../sass/my.scss */
-.left {
-  background-size: cover;
-  background-color: grey;
-}
-
-/* line 12, ../sass/my.scss */
-.right {
-  background: linear-gradient(to right, yellow, red);
+/* line 6, ../sass/my.scss */
+.izq {
+  z-index: 10;
+  float: left;
+  position: absolute;
+  background-color: lightgrey;
+  clip-path: polygon(0 0, 65% 0, 30% 100%, 0% 100%);
+  height: 800px;
 }
 
 /* line 18, ../sass/my.scss */
+.der {
+  z-index: 100;
+  float: right;
+  position: absolute;
+  background: linear-gradient(to top, yellow, red);
+  clip-path: polygon(66% 0, 100% 0, 100% 100%, 31% 100%);
+  background-size: cover;
+  display: inline-flex;
+  height: 800px;
+}
+
+/* line 29, ../sass/my.scss */
 p {
-  width: 90%;
+  width: 35%;
 }

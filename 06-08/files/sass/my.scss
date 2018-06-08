@@ -1,20 +1,46 @@
-.invisible{
+.invisible {
   opacity: 0;
 }
 
-.left{
+
+.izq {
+  z-index: 10;
+  float:left;
+  position: absolute;
+  background-color: lightgrey;
+  clip-path: polygon(0 0, 65% 0, 30% 100%, 0% 100%);
+  height: 800px;
+
+
+}
+
+
+.der {
+  z-index: 100;
+  float: right;
+  position: absolute;
+  background: linear-gradient(to top, yellow, red);
+  clip-path: polygon(66% 0, 100% 0, 100% 100%, 31% 100%);
   background-size: cover;
-  background-color: grey;
-  // -webkit-clip-path: polygon(0 0, 65% 0, 30% 100%, 0% 100%);
-  // clip-path: polygon(0 0, 65% 0, 30% 100%, 0% 100%);
+  display: inline-flex;
+  height: 800px;
 }
 
-.right {
-  background: linear-gradient(to right, yellow, red);
-//   -webkit-clip-path: polygon(70% 0, 100% 0, 100% 100%, 35% 100%);
-// clip-path: polygon(70% 0, 100% 0, 100% 100%, 35% 100%);
+p {
+  width: 35%;
 }
 
-p{
-  width: 90%;
-}
+// .left {
+//   z-index: 1;
+//   background-size: 500px 500px;
+//   background-color: grey;
+//   -webkit-clip-path: polygon(0 0, 65% 0, 30% 100%, 0% 100%);
+//   clip-path: polygon(0 0, 65% 0, 30% 100%, 0% 100%);
+// }
+
+// .right {
+//   z-index: 1;
+//   background: linear-gradient(to right, yellow, red);
+//   -webkit-clip-path: polygon(70% 0, 100% 0, 100% 100%, 34% 100%);
+//   clip-path: polygon(70% 0, 100% 0, 100% 100%, 34% 100%);
+// }
