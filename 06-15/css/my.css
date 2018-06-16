@@ -1,43 +1,46 @@
+/* permite crear fondos de pantalla en tamaño % */
 body, html {
     height: 100%;
 }
 
+/* 1ª imagen de fondo fijada */
 .parallax {
-    /* The image used */
+    /* Imagen usada */
     background-image: url("../img/1.jpg");
 
-    /* Set a specific height */
+    /* Fija altura especifica de la imagen */
     height: 100%;
 
-    /* Create the parallax scrolling effect */
+    /* Crea el efecto parallax */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* 2ª imagen de fondo, no fijada */
 .paralelo {
-    /* The image used */
+    /* Imagen usada */
     background-image: url("../img/2.jpg");
 
-    /* Set a specific height */
+    /* Fija altura especifica de la imagen */
     height: 100%;
 
-    /* Create the parallax scrolling effect */
-    /* background-attachment: fixed; */
+    /* Crea el efecto parallax */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* 3ª imagen de fondo fijada */
 .para {
-    /* The image used */
+    /* Imagen usada */
     background-image: url("../img/3.jpg");
 
-    /* Set a specific height */
+    /* Fija altura especifica de la imagen */
     height: 100%;
 
-    /* Create the parallax scrolling effect */
+    /* Crea el efecto parallax */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

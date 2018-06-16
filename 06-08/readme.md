@@ -8,17 +8,17 @@ Para iniciar este proyecto he:
 1. Iniciado Gitkraken.
 2. Git init en github con clone en carpeta local.
 3. Ir a la carpeta local en Terminal.
-4. mkdir 08/06 && cd 08/06
-5. npm init (apunto **app.js** como main file).
-6. npm install express --save
-7. npm install express-handlebars --save
-8. touch app.js
-9. mkdir files && cd files
-10. compass init
-11. cd sass && touch my.scss && cd ..
-12. compass compile
-13. cd ../..
-14. atom . (Una vez abierto atom comento en lineas cada parte del código.)
+4. $ mkdir 08/06 && cd 08/06
+5. $ npm init (apunto **app.js** como main file).
+6. $ npm install express --save
+7. $ npm install express-handlebars --save
+8. $ touch app.js
+9. $ mkdir files && cd files
+10. $ compass init
+11. $ cd sass && touch my.scss && cd ..
+12. $ compass compile
+13. $ cd ../..
+14. $ atom . (Una vez abierto atom comento en lineas cada parte del código.)
 15. Edito app.js:
     - creo variables con los carguen las dependencias requeridas.
     - Fijo la ruta estática.

@@ -1,6 +1,6 @@
 var app5 = new Vue({
   el: '#app',
-
+  // mensaje que tiene que aparecer
   data: {
     message: 'Hello!'
   },

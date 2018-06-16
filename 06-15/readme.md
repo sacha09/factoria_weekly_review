@@ -12,4 +12,3 @@ Para iniciar este proyecto he:
 5. $ atom .
 6. Crear calc.js, escribir todos los test y luego definir la función.
 7. Crear index.html, app.js y my.css.
-8. 
